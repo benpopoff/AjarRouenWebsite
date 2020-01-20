@@ -12,6 +12,9 @@ nav	{
 	height: 8vh;
 	background: #d6202b;
 	display: flex;
+	position: sticky;
+	position: -webkit-sticky; /* safari */
+	top: 0;
 }
 
 .nav-links {
@@ -130,6 +133,7 @@ section.archive {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	height: 100vh;
 }
 
 .display_archive {
